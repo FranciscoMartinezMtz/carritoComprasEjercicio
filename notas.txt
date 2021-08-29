@@ -1,0 +1,27 @@
+
+// elementoHTML.textContent = '<b>esto es un texto</b> solo es posoble poner texto
+// elementoHTML.innerHTML = '<b>esto es un texto</b> podemos aplicar etiquetas HTML
+
+
+// Reflow:
+//  Ocurre cuando un navegador debe procesar y dibujar parte o la totalidad de una página web nuevamente, como después de una actualización en un sitio interactivo
+
+
+// Fragment
+// https://developer.mozilla.org/
+// Se utiliza como una versión ligera de Document que almacena un segmento de una estructura de documento compuesta de nodos como un documento estándar.
+
+// Por ende en un fragment vamos a guardar todo un template o nodos HTML que luego pintaremos en nuestro DOM, así evitamos en mayor parte el Reflow.
+// *****************Como crear un fragmento ( dos formas)*************
+// const nombreFragment = document.createDocumentFragment();
+// const nameFragment = new DocumentFragment();
+
+
+
+                            addEventListener('DOMContentLoaded')
+se dispara cuando nuestro documento html se termina de cargar.
+
+
+                            TEMPLATES
+Los templates no son reconocidos ( leidos ) por el HTML
+
